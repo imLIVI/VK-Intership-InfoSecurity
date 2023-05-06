@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Authorization</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="catch_submit.js"></script>
+    </head>
+
+    <body>
+    <div class="login-page">
+        <div class="form">
+            <div class="header-form">
+                <p>Единый вход</p>
+            </div>
+            <form action="/authorize" method="get" target="_blank">
+                <input id="user" name="user" required placeholder="Имя пользователя"/>
+                <input id="password" name="password" required placeholder="Пароль"/>
+
+                <div class="bottom-form">
+                    <div>
+                        <button type="submit">Войти</button>
+                    </div>
+                    <div class="problem">
+                        <a href="mailto:lesly120898@gmail.com">Проблемы со входом?</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </body>
+
+
+
+</html>
